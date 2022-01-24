@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerse Regression suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Regression test(failed)">
+    <classes>
+      <class name="Tests.UserRegistrationTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="logout_success"/>
+          <include name="setupClass"/>
+          <include name="register_success"/>
+          <include name="login_success"/>
+        </methods>
+      </class> <!-- Tests.UserRegistrationTest -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [nopcommerse Regression suite] -->

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+    <suite name="nopcommerse Regression suite">
+    <parameter name="browser" value="chrome"></parameter>
+        <test name="Regression test">
+            <classes>
+<!--                <class  name="Tests.UserRegistrationTest"/>-->
+                <class name="Tests.UserLoginTest"/>
+
+
+            </classes>
+        </test>
+    </suite>
